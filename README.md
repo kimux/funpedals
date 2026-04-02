@@ -65,6 +65,23 @@ sudo apt install libasound2-dev libsdl2-dev libsdl2-ttf-dev fonts-noto
 
 ## Building
 
+`Cargo.toml` dependencies:
+
+```toml
+[dependencies]
+fundsp = "0.23"
+serde = { version = "1", features = ["derive"] }
+toml = "0.8"
+
+[target.'cfg(target_os = "linux")'.dependencies]
+alsa = "0.9"
+ringbuf = "0.4"
+sdl2 = { version = "0.36", features = ["ttf"] }
+
+[target.'cfg(target_os = "macos")'.dependencies]
+cpal = "0.15"
+```
+
 ```bash
 cargo build --release
 ```
