@@ -5,7 +5,7 @@ built with Rust, [FunDSP](https://github.com/SamiPerttu/fundsp), ALSA, and SDL2.
 
 ## Demo
 
-[![FunPedals Demo](https://img.youtube.com/vi/C3Qr_cxG9GM/0.jpg)](https://www.youtube.com/watch?v=C3Qr_cxG9GM)
+[![FunPedals Demo](https://img.youtube.com/vi/OPpnCckCWFs/0.jpg)](https://www.youtube.com/watch?v=OPpnCckCWFs)
 
 ## Features
 
